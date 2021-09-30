@@ -8,13 +8,7 @@ public class GenericException extends Exception {
 	private static final long serialVersionUID = 1L;
 	private String message;
 	private int statusCode;
-	
 	private String status;
-
-	public GenericException() {
-		super();
-
-	}
 
 	public GenericException(String message, int statusCode, String status) {
 		super();
